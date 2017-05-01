@@ -9,6 +9,10 @@ module for more on the operations
 provided.
 '''
 
+"""
+Modified package to bitmask.py
+"""
+
 class BitMask(int):
    def AND(self,bm):
       return BitMask(self & bm)
